@@ -80,12 +80,13 @@
 
 .about-us img {
   width: 500px;
-  border-radius: 20px;
+  border-radius: 15px;
 }
 
 .about-us h2 {
   font-size: 25px;
   padding-bottom: 20px;
+  font-family: "Salsa", cursive;
 }
 .about-us-content h2 {
   font-size: 35px;
@@ -93,6 +94,38 @@
 
 .about-us-content p {
   font-size: 20px;
+  line-height: 25px;
+  width: 90%;
+}
+
+.objectives {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+  padding: 4rem;
+}
+
+.objectives img {
+  width: 350px;
+  border-radius: 15px;
+}
+
+.objectives h2 {
+  font-size: 25px;
+  padding-bottom: 20px;
+  font-family: "Salsa", cursive;
+}
+
+.objectives-content {
+  width: 50rem;
+}
+.objectives-content h2 {
+  font-size: 35px;
+}
+
+.objectives-content p {
+  font-size: 22px;
   line-height: 25px;
   width: 90%;
 }
@@ -114,9 +147,10 @@
   align-items: center;
 }
 
-.values-container h2 {
+.values-content h2 {
   font-size: 35px;
   padding-bottom: 20px;
+  font-family: "Salsa", cursive;
 }
 
 .values img {
@@ -139,7 +173,7 @@
   justify-content: center;
   align-items: center;
   padding: 4rem;
-background-image: linear-gradient(120deg, #dddddd87 0%, #4CAF50 100%);
+  background-image: linear-gradient(120deg, #dddddd87 0%, #4caf50 100%);
 }
 .raizes img {
   width: 500px;
@@ -187,6 +221,11 @@ background-image: linear-gradient(120deg, #dddddd87 0%, #4CAF50 100%);
   padding: 4rem;
   justify-content: center;
   align-items: center;
+  gap: 4rem;
+}
+.images-about-us {
+  display: flex;
+  flex-direction: column;
   gap: 4rem;
 }
 
