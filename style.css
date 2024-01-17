@@ -281,6 +281,13 @@
 ;
   }
 
+  .about-us-content p {
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .section-about-us {
     padding: 1rem;
   }
