@@ -295,6 +295,12 @@
     display: none;
   }
 
+  .image-mobile {
+    display: flex;;
+    align-items: center;
+    justify-content: center;
+  }
+
   .container-images-mobile {
     display: flex;
     flex-direction: column;
@@ -302,5 +308,9 @@
     margin-top: 2rem;
     align-items: center;
     justify-content: center;
+  }
+  
+  .objectives {
+    padding: 1.5rem;
   }
 }
