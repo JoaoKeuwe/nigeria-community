@@ -32,22 +32,24 @@
 .header-content {
   /* background-image: linear-gradient( 109.6deg,  rgba(61,131,97,1) 11.2%, rgba(28,103,88,1) 91.1% ); */
   background-image: url(images/Leonardo.Ai.jpg);
-  height: 80vh;
+  height: 85vh;
   display: flex;
   justify-content: center;
+  padding: 0 1rem;
 }
 .hero-section h1 {
   font-family: "Barlow", sans-serif;
-  font-size: 85px;
+  font-size: 70px;
   color: white;
   letter-spacing: 2px;
   padding-bottom: 20px;
 }
 
 .hero-section p {
-  font-size: 30px;
+  font-size: 25px;
   color: white;
   letter-spacing: 2px;
+  line-height: 33px;
 }
 
 .main-section {
@@ -245,4 +247,39 @@
 
 .footer p {
   font-size: 20px;
+}
+
+@media (max-width: 1400px) {
+  .hero-section h1 {
+    font-size: 60px;
+  }
+  .hero-section p {
+    font-size: 24px;
+    line-height: 33px;
+  }
+
+  .nav-content {
+    gap: 1rem;
+  }
+
+  .nav-content li {
+    padding: 0;
+  }
+}
+
+@media (max-width: 1100px) {
+  .nav-content {
+    display: none;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .container-images-mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
 }
